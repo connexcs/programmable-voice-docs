@@ -1,0 +1,23 @@
+{
+  "name": "programmable-voice-docs",
+  "version": "1.0.0",
+  "description": "Programmable Voice Documentation JSDoc",
+  "main": "index.js",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connexcs/programmable-voice-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connexcs/programmable-voice-docs/issues"
+  },
+  "homepage": "https://github.com/connexcs/programmable-voice-docs#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.4",
+    "jsdoc-template": "^1.2.0"
+  }
+}
