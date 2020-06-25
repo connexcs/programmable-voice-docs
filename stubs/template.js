@@ -5,6 +5,8 @@
  * @class
  * @hideconstructor
  * @classdesc Use templates in the system and compile them with your variables
+ * @example
+ *     const cxTemplate = require('cxTemplate');
  */
 
 function template () {
@@ -19,7 +21,7 @@ function template () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     var { text, html, sms, subject } = await compile('alert', {name: 'Joe Blogs'})
+	 *     var { text, html, sms, subject } = await cxTemplate.compile('alert', {name: 'Joe Blogs'});
 	 */
 	function compile (name, vars) { }
 }
