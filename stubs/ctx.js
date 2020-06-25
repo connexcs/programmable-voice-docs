@@ -1,3 +1,4 @@
+ccccccljttrjiufucrjfcgrglfcktehfubhlnbniuibd
 /**
  * A class 5 real-time interface component
  * @module cxC5Ctx
@@ -17,7 +18,7 @@ function ctx() {
 	 * @return {string} Value
 	 *
 	 * @example
-	 *     get('myVar')
+	 * ctx.get('myVar')
 	 */
 
 	function get(key) {
@@ -32,7 +33,7 @@ function ctx() {
 	 * @param {string} Value
 	 *
 	 * @example
-	 *     set('myVar', 'myVal')
+	 * ctx.set('myVar', 'myVal')
 	 */
 	 
 	function set(key, value, skipWrite = false) {
@@ -50,7 +51,7 @@ function ctx() {
 	 *     header('X-My-Header', 'myVal')
 	 *
 	 * @example
-	 *     var value = header('X-My-Header')
+	 * var value = ctx.header('X-My-Header')
 	 */
 	function header(key, value) {
 	}
@@ -63,7 +64,7 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await answer()
+	 * await ctx.answer()
 	 */
 	async function answer() {
 	}
@@ -77,7 +78,7 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await tts('Thank you for calling.')
+	 * ctx.await tts('Thank you for calling.')
 	 */
 	async function tts (text) {
 	}
@@ -91,10 +92,10 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await echo()
+	 * await ctx.echo()
 	 *
 	 * @example
-	 *     await echo(500)
+	 * await ctx.echo(500)
 	 */
 	async function echo (delay = 0) {
 	}
@@ -111,10 +112,10 @@ function ctx() {
 	 * @return {Promise<Object>}
 	 *
 	 * @example
-	 *     var {status, value} = await ivr('user/myGreeting.wav', 1, 5, 10)
+	 * var {status, value} = await ctx.ivr('user/myGreeting.wav', 1, 5, 10)
 	 *
 	 * @example
-	 *     var {status, value} = await ivr('ivr/ivr-aint_nobody_got_time_for_that.wav', 10, 10, 5)
+	 * var {status, value} = await ctx.ivr('ivr/ivr-aint_nobody_got_time_for_that.wav', 10, 10, 5)
 	 */
 	async function ivr (file, timeout, min, max, terminators, opts = {}) {
 	}
@@ -128,10 +129,10 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await play('user/myGreeting.wav')
+	 * await ctx.play('user/myGreeting.wav')
 	 *
 	 * @example
-	 *     await play('ivr/ivr-aint_nobody_got_time_for_that.wav')
+	 * await ctx.play('ivr/ivr-aint_nobody_got_time_for_that.wav')
 	 */
 	async function play (file) {
 	}
@@ -147,7 +148,7 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await hangup()
+	 * await ctx.hangup()
 	 */
 	async function hangup () {
 	}	

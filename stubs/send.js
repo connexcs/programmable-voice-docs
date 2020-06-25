@@ -18,13 +18,14 @@ function send (){
 	 * @return {Promise}
 	 *
 	 * @example
+	 * const cxSend = require('cxSend');
 	 * var params = {
-	 *		to: "receiver@sender.com",
-	 *		subject: "Message title",
-	 * 		text: "Plaintext version of the message",
-	 *		html: "<p>HTML version of the message</p>"
+	 *  to: "receiver@sender.com",
+	 *  subject: "Message title",
+	 *  text: "Plaintext version of the message",
+	 *  html: "<p>HTML version of the message</p>"
 	 * };
-	 * await email(params);
+	 * await cxSend.email(params);
 	 */
 	async function email (params){
 	}
@@ -39,7 +40,8 @@ function send (){
 	 * @return {Promise}
 	 *
 	 * @example
-	 * await sms('447000123456', 'Hello World!');
+	 * const cxSend = require('cxSend');
+	 * await cxSend.sms('447000123456', 'Hello World!');
 	 */
 	async function sms (number, msg){
 	}
