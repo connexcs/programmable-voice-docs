@@ -1,6 +1,8 @@
 /**
  * A class 5 real-time interface component
+ * @namespace ctx
  * @class
+ * @hideconstructor
  * @classdesc A class 5 real-time interface component
  */
 
@@ -9,7 +11,7 @@ function ctx() {
 	 * Get Variable
 	 * 
 	 * @function get
-	 * @alias ctx.get
+	 * @namespace ctx
 	 * @param {string} Key
 	 * @return {string} Value
 	 *
@@ -24,7 +26,7 @@ function ctx() {
 	 * Set Variable
 	 * 
 	 * @function set
-	 * @alias ctx.set
+	 * @namespace ctx
 	 * @param {string} Key
 	 * @param {string} Value
 	 *
@@ -39,7 +41,7 @@ function ctx() {
 	 * Get / Set Header
 	 * 
 	 * @function header
-	 * @alias ctx.header
+	 * @namespace ctx
 	 * @param {string} Key
 	 * @param {string} Value
 	 *
@@ -56,7 +58,7 @@ function ctx() {
 	 * Answer Call
 	 * 
 	 * @function answer
-	 * @alias ctx.answer
+	 * @namespace ctx
 	 * @return {Promise}
 	 *
 	 * @example
@@ -69,7 +71,7 @@ function ctx() {
 	 * Text-To-Speech
 	 * 
 	 * @function tts
-	 * @alias ctx.tts
+	 * @namespace ctx
 	 * @param {string} text
 	 * @return {Promise}
 	 *
@@ -83,7 +85,7 @@ function ctx() {
 	 * Echo
 	 * 
 	 * @function echo
-	 * @alias ctx.echo
+	 * @namespace ctx
 	 * @param {number} [delay] - Value in milliseconds
 	 * @return {Promise}
 	 *
@@ -100,7 +102,7 @@ function ctx() {
 	 * Interactive Voice Response - IVR
 	 * 
 	 * @function ivr
-	 * @alias ctx.ivr
+	 * @namespace ctx
 	 * @param {string} file - Audio Filename
 	 * @param {number} timeout - How many seconds to wait (after audio is completed)
 	 * @param {number} min - Minimum Digits to be captured
@@ -120,7 +122,7 @@ function ctx() {
 	 * Play
 	 * 
 	 * @function play
-	 * @alias ctx.play
+	 * @namespace ctx
 	 * @param {string} file
 	 * @return {Promise}
 	 *
@@ -140,7 +142,7 @@ function ctx() {
 	 * Hang Up
 	 * 
 	 * @function hangup
-	 * @alias ctx.hangup
+	 * @namespace ctx
 	 * @return {Promise}
 	 *
 	 * @example
