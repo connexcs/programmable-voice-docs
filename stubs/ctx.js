@@ -12,7 +12,6 @@ function ctx() {
 	 * Get Variable
 	 * 
 	 * @function get
-	 * @memberof ctx
 	 * @param {string} Key
 	 * @return {string} Value
 	 *
@@ -27,7 +26,6 @@ function ctx() {
 	 * Set Variable
 	 * 
 	 * @function set
-	 * @memberof ctx
 	 * @param {string} Key
 	 * @param {string} Value
 	 *
@@ -42,7 +40,6 @@ function ctx() {
 	 * Get / Set Header
 	 * 
 	 * @function header
-	 * @memberof ctx
 	 * @param {string} Key
 	 * @param {string} Value
 	 *
@@ -59,7 +56,6 @@ function ctx() {
 	 * Answer Call
 	 * 
 	 * @function answer
-	 * @memberof ctx
 	 * @return {Promise}
 	 *
 	 * @example
@@ -72,7 +68,6 @@ function ctx() {
 	 * Text-To-Speech
 	 * 
 	 * @function tts
-	 * @memberof ctx
 	 * @param {string} text
 	 * @return {Promise}
 	 *
@@ -86,7 +81,6 @@ function ctx() {
 	 * Echo
 	 * 
 	 * @function echo
-	 * @memberof ctx
 	 * @param {number} [delay] - Value in milliseconds
 	 * @return {Promise}
 	 *
@@ -103,7 +97,6 @@ function ctx() {
 	 * Interactive Voice Response - IVR
 	 * 
 	 * @function ivr
-	 * @memberof ctx
 	 * @param {string} file - Audio Filename
 	 * @param {number} timeout - How many seconds to wait (after audio is completed)
 	 * @param {number} min - Minimum Digits to be captured
@@ -123,7 +116,6 @@ function ctx() {
 	 * Play
 	 * 
 	 * @function play
-	 * @memberof ctx
 	 * @param {string} file
 	 * @return {Promise}
 	 *
@@ -143,7 +135,6 @@ function ctx() {
 	 * Hang Up
 	 * 
 	 * @function hangup
-	 * @memberof ctx
 	 * @return {Promise}
 	 *
 	 * @example
