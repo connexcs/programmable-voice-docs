@@ -4,7 +4,7 @@
  * @namespace cxRest
  * @class
  * @hideconstructor
- * @classdesc Communicate back into ConnexCS through the  (https://api-docs.connexcs.com/)[API]
+ * @classdesc Communicate back into ConnexCS through the [API](https://api-docs.connexcs.com/)
  * 
  * ## Example ##
  * ```
