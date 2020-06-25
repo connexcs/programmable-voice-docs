@@ -4,7 +4,7 @@
         "dictionaries": ["jsdoc"]
     },
     "source": {
-        "include": ["./stubs"]
+        "include": ["./stubs", "README.md"]
     },
     "plugins": [
         "plugins/markdown"
