@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/connexcs/programmable-voice-docs#readme",
   "devDependencies": {
+    "docdash": "^1.2.0",
     "jsdoc": "^3.6.4",
     "jsdoc-template": "^1.2.0"
   }
