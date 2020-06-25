@@ -13,6 +13,7 @@ function init () {
 	 * Build Template from Variables
 	 * 
 	 * @function compile
+	 * @namespace cxTemplate
 	 * @param {string} name - Template Name
 	 * @param {object} vars - Variables to inject into template
 	 * @return {Promise}

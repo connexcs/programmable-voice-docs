@@ -13,6 +13,7 @@ function init () {
 	 * Create Record
 	 * 
 	 * @function create
+	 * @memberof cxUserspace
 	 * @param {string} area - Datastore Name
 	 * @param {string|number} key - Row Id
 	 * @param {object} data - Data Object / Row
@@ -27,6 +28,7 @@ function init () {
 	 * Create Record
 	 * 
 	 * @function create
+	 * @memberof cxUserspace
 	 * @param {string} read - Datastore Name
 	 * @param {string|number} key - Row Id
 	 * @return {Promise<object>}
@@ -41,6 +43,7 @@ function init () {
 	 * Update Record
 	 * 
 	 * @function update
+	 * @memberof cxUserspace
 	 * @param {string} area - Datastore Name
 	 * @param {string|number} key - Row Id
 	 * @param {object} data - Data Object / Row
@@ -56,6 +59,7 @@ function init () {
 	 * Delete Record
 	 * 
 	 * @function delete
+	 * @memberof cxUserspace
 	 * @param {string} area - Datastore Name
 	 * @param {string|number} key - Row Id
 	 * @return {Promise}

@@ -13,7 +13,7 @@ function init (){
 	 * Send Email
 	 * 
 	 * @function email
-	 * @namespace cxSend
+	 * @memberof cxSend
 	 * @param {object} params - Parameters for Emailing
 	 * @return {Promise}
 	 *
@@ -33,7 +33,7 @@ function init (){
 	 * Send SMS
 	 * 
 	 * @function sms
-	 * @namespace cxSend
+	 * @memberof cxSend
 	 * @param {string} params - Telephone Number
 	 * @param {string} msg - SMS Message (160 Chars)
 	 * @return {Promise}
