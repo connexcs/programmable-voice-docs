@@ -1,14 +1,19 @@
 /**
  * Template Builder
- * @constructor 
+ * @module cxTemplate
+ * @namespace cxTemplate
+ * @class
+ * @hideconstructor
+ * @classdesc Use templates in the system and compile them with your variables
  */
 
-function init () {
+function template () {
 
 	/**
 	 * Build Template from Variables
 	 * 
 	 * @function compile
+	 * @memberof cxTemplate
 	 * @param {string} name - Template Name
 	 * @param {object} vars - Variables to inject into template
 	 * @return {Promise}
