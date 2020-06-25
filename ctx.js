@@ -1,5 +1,6 @@
 /**
  * A class 5 real-time interface component
+ * @module ctx
  * @namespace ctx
  * @class
  * @hideconstructor
