@@ -10,9 +10,9 @@
  * ```
  * const cxUserspace = require('cxUserspace');
  * async function main(data) {
- *	 var result = await ctx.answer(data.routing.dest_number);
+ *   var result = await cxUserspace.read(data.routing.dest_number);
  *   // Do something with result
- *	 return data
+ *   return data
  * }
  * ```
  */
