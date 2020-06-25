@@ -5,6 +5,16 @@
  * @class
  * @hideconstructor
  * @classdesc Create, Read, Update & Delete from the Userspace Database
+ * 
+ * ## Example ##
+ * ```
+ * const cxUserspace = require('cxUserspace');
+ * async function main(data) {
+ *	 var result = await ctx.answer(data.routing.dest_number);
+ *   // Do something with result
+ *	 return data
+ * }
+ * ```
  */
 
 function userspace () {
@@ -20,7 +30,6 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 * const cxUserspace = require('cxUserspace');
 	 * await cxUserspace.create('myDatabase', 1, {value: 'Hello World!'})
 	 */
 	function create(area, key, data) { }
@@ -35,7 +44,6 @@ function userspace () {
 	 * @return {Promise<object>}
 	 *
 	 * @example
-	 * const cxUserspace = require('cxUserspace');
 	 * var data = await cxUserspace.read('myDatabase', 1)
 	 */
 	self.read = function(area, key) {
@@ -52,7 +60,6 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 * const cxUserspace = require('cxUserspace');
 	 * await cxUserspace.update('myDatabase', 1, {value: 'Hello World!'})
 	 */
 	self.update = function(area, key, data) {
@@ -68,7 +75,6 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 * const cxUserspace = require('cxUserspace');
 	 * await cxUserspace.delete('myDatabase', 1)
 	 */
 	self.delete = function(area, key) {

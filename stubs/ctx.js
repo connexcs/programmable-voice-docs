@@ -1,13 +1,5 @@
 /**
  * A class 5 real-time interface component
- *
- * ```
- * async function main(data, ctx) {
- *	 await ctx.answer();
- *	 await ctx.tts('Call was successful. Hello World!');
- *	 await ctx.hangup();
- * }
- * ```
  * 
  * @module cxC5Ctx
  * @namespace ctx
@@ -15,6 +7,7 @@
  * @hideconstructor
  * @classdesc A class 5 real-time interface
  * 
+ * ## Example ##
  * ```
  * async function main(data, ctx) {
  *	 await ctx.answer();
