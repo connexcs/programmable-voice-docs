@@ -13,7 +13,15 @@
  * @namespace ctx
  * @class
  * @hideconstructor
- * @classdesc A class 5 real-time interface component
+ * @classdesc A class 5 real-time interface
+ * 
+ * ```
+ * async function main(data, ctx) {
+ *	 await ctx.answer();
+ *	 await ctx.tts('Call was successful. Hello World!');
+ *	 await ctx.hangup();
+ * }
+ * ```
  */
 
 function ctx() {
