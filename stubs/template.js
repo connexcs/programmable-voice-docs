@@ -19,8 +19,8 @@ function template () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     const cxTemplate = require('cxTemplate');
-	 *     var { text, html, sms, subject } = await cxTemplate.compile('alert', {name: 'Joe Blogs'});
+	 * const cxTemplate = require('cxTemplate');
+	 * var { text, html, sms, subject } = await cxTemplate.compile('alert', {name: 'Joe Blogs'});
 	 */
 	function compile (name, vars) { }
 }

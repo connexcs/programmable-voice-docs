@@ -20,7 +20,8 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await create('myDatabase', 1, {value: 'Hello World!'})
+	 * const cxUserspace = require('cxUserspace');
+	 * await cxUserspace.create('myDatabase', 1, {value: 'Hello World!'})
 	 */
 	function create(area, key, data) { }
 
@@ -34,7 +35,8 @@ function userspace () {
 	 * @return {Promise<object>}
 	 *
 	 * @example
-	 *     var data = await read('myDatabase', 1)
+	 * const cxUserspace = require('cxUserspace');
+	 * var data = await cxUserspace.read('myDatabase', 1)
 	 */
 	self.read = function(area, key) {
 	}
@@ -50,7 +52,8 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await update('myDatabase', 1, {value: 'Hello World!'})
+	 * const cxUserspace = require('cxUserspace');
+	 * await cxUserspace.update('myDatabase', 1, {value: 'Hello World!'})
 	 */
 	self.update = function(area, key, data) {
 	}
@@ -65,7 +68,8 @@ function userspace () {
 	 * @return {Promise}
 	 *
 	 * @example
-	 *     await delete('myDatabase', 1)
+	 * const cxUserspace = require('cxUserspace');
+	 * await cxUserspace.delete('myDatabase', 1)
 	 */
 	self.delete = function(area, key) {
 		
