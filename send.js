@@ -7,7 +7,7 @@
  * @classdesc A component to send Email & SMS
  */
 
-function init (){
+function send (){
 
 	/**
 	 * Send Email

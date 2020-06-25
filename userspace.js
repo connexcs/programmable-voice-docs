@@ -7,7 +7,7 @@
  * @classdesc Create, Read, Update & Delete from the Userspace Database
  */
 
-function init () {
+function userspace () {
 	
 	/**
 	 * Create Record
