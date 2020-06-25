@@ -1,6 +1,12 @@
-ccccccljttrjiufucrjfcgrglfcktehfubhlnbniuibd
 /**
  * A class 5 real-time interface component
+ * <pre><code>
+ * async function main(data, ctx) {
+ *	 await ctx.answer();
+ *	 await ctx.tts('Call was successful. Hello World!');
+ *	 await ctx.hangup();
+ * }
+ * </code></pre>
  * @module cxC5Ctx
  * @namespace ctx
  * @class
