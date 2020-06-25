@@ -4,7 +4,7 @@
         "dictionaries": ["jsdoc"]
     },
     "source": {
-        "include": ["./ctx.js"]
+        "include": ["./stubs"]
     },
     "plugins": [
         "plugins/markdown"

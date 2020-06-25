@@ -3,7 +3,7 @@
  * @constructor 
  */
 
-function () {
+function ctx() {
 	/**
 	 * Get Variable
 	 * 
