@@ -77,6 +77,6 @@ function rest () {
 	 * @example
 	 * await rest.delete('customer/1234')
 	 */
-	async function delete (area, key) {	}
+	self.delete = async function (area, key) {	}
 	return self;
 }
