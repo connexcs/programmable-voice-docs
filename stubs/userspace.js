@@ -37,7 +37,7 @@ function userspace () {
 	/**
 	 * Create Record
 	 * 
-	 * @function create
+	 * @function read
 	 * @memberof cxUserspace
 	 * @param {string} read - Datastore Name
 	 * @param {string|number} key - Row Id
