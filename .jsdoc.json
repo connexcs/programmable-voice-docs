@@ -27,5 +27,31 @@
     "templates": {
         "cleverLinks": false,
         "monospaceLinks": false
-    }
+    },
+	"docdash": {
+        "meta": {
+            "title": "ConnexCS Script Forge Docs",
+            "description": "Documentation for ConnexCS Script Forge"
+        },
+		"menu": {
+            "Home Page": {
+                "href":"https://www.connexcs.com",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"home_page"
+            },
+            "Main Documentation": {
+                "href":"https://docs.connexcs.com",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"main_docs"
+            },
+            "API Documentation": {
+                "href":"https://api-docs.connexcs.com",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"api_docs"
+            }
+		}
+	}
 }
