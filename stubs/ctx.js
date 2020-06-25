@@ -118,6 +118,12 @@ function ctx() {
 	 * @param {number} timeout - How many seconds to wait (after audio is completed)
 	 * @param {number} min - Minimum Digits to be captured
 	 * @param {number} max - Maximum Digits to be captured
+	 * @param {string} terminators - Characters to end input such as #
+	 * @param {Object} opts - Additional Options
+	 * @param {number} opts.tries - How many attempts to allow
+	 * @param {string} opts.invalid_file - Invalid file
+	 * @param {string} opts.regexp - Regular Expression to validate input
+	 * @param {string} opts.transfer_on_failure - Destination to transfer to for failure
 	 * @return {Promise<Object>}
 	 *
 	 * @example
