@@ -3,7 +3,7 @@
 ConnexCS ScriptForge allows you to write ECMAScript 2015 (ES6) (aka Javascript) which is executed
 in a secure sandbox on the server. It is designed to be low latency and high throughput.
 
-You can read more about how to find and use it here: https://docs.connexcs.com/developers/scriptforge/
+You can read more about how to find and use it [here](https://docs.connexcs.com/developers/scriptforge/)
 
 ## Execution Types
 
@@ -24,7 +24,7 @@ to bridge the ConnexCS DID provisioning system to a provider of your choice, or 
 
 ## Example Applications
 
-You can find our github repository for sample applications here: https://github.com/connexcs/scriptforge-examples/
+You can find our github repository for sample applications [here](https://github.com/connexcs/scriptforge-examples/)
 
 ## Use Cases
 
