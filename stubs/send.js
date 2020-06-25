@@ -1,14 +1,19 @@
 /**
  * Send Component
- * @constructor 
+ * @module cxSend
+ * @namespace cxSend
+ * @class
+ * @hideconstructor
+ * @classdesc A component to send Email & SMS
  */
 
-function init (){
+function send (){
 
 	/**
 	 * Send Email
 	 * 
 	 * @function email
+	 * @memberof cxSend
 	 * @param {object} params - Parameters for Emailing
 	 * @return {Promise}
 	 *
@@ -28,6 +33,7 @@ function init (){
 	 * Send SMS
 	 * 
 	 * @function sms
+	 * @memberof cxSend
 	 * @param {string} params - Telephone Number
 	 * @param {string} msg - SMS Message (160 Chars)
 	 * @return {Promise}
