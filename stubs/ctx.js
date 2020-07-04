@@ -152,7 +152,21 @@ function ctx() {
 	async function play (file) {
 	}
 
-	async function destination (app, data) {
+	/**
+	 * Bridge
+	 * 
+	 * @function bridge
+	 * @memberof ctx
+	 * @param {string} destination
+	 * @return {Promise}
+	 *
+	 * @example
+	 * await ctx.play('160')
+	 *
+	 * @example
+	 * await ctx.play('441234567890')
+	 */
+	async function bridge (app, destination) {
 	}
 
 	/**
