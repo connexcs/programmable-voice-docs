@@ -161,10 +161,10 @@ function ctx() {
 	 * @return {Promise}
 	 *
 	 * @example
-	 * await ctx.play('160')
+	 * await ctx.bridge('160')
 	 *
 	 * @example
-	 * await ctx.play('441234567890')
+	 * await ctx.bridge('441234567890')
 	 */
 	async function bridge (app, destination) {
 	}
