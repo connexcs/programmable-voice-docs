@@ -159,6 +159,7 @@ function ctx() {
 	 * @memberof ctx
 	 * @param {string} destination
 	 * @return {Promise}
+	 * @description Bridges the call with another destination, returns a promise when complete containing the bleg context.
 	 *
 	 * @example
 	 * await ctx.bridge('160')
@@ -180,5 +181,18 @@ function ctx() {
 	 * await ctx.hangup()
 	 */
 	async function hangup () {
-	}	
+	}
+	
+	/**
+	 * Block DTMF
+	 * 
+	 * @function blockDtmf
+	 * @memberof ctx
+	 * @return {Promise}
+	 *
+	 * @example
+	 * await ctx.blockDtmf()
+	 */
+	async function blockDtmf (digits = '0123456789') {
+	}
 } 
