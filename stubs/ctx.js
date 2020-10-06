@@ -66,6 +66,21 @@ function ctx() {
 	}
 
 	/**
+	 * Log Information
+	 * 
+	 * @function log
+	 * @memberof ctx
+	 * @param {string} Text
+	 * @return null
+	 *
+	 * @example
+	 * ctx.log('Hello World!')
+	 */
+
+	function log(text) {
+	}
+
+	/**
 	 * Answer Call
 	 * 
 	 * @function answer
