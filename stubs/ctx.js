@@ -213,16 +213,7 @@ function ctx() {
 
 
 	/**
-	 * Call back function `waitForMatch` to be used as match in waitFor
-	 *
-	 * @callback waitForMatch
-	 * @param {string} match Text to be matched against
-	 */
-
-	/**
 	 * Wait For (DTMF Sequence)
-
-
 	 * 
 	 * @function waitFor
 	 * @memberof ctx
@@ -232,7 +223,7 @@ function ctx() {
 	 *
 	 * @example
 	 * try {
-	 *	 var keys = await ctx.waitFor('\d{4}' '*', 3000);
+	 *   var keys = await ctx.waitFor('\d{4}' '*', 3000);
 	 *   process(keys)
 	 * } catch (err) {
 	 *   // Continue
@@ -241,11 +232,11 @@ function ctx() {
 	 *
 	 * @example
 	 * function fn(value) {
-	 *	 return value > 1000;
+	 *   return value > 1000;
 	 *   // You can fail a match by throw new Error('fail');
 	 * }
 	 * try {
-	 *	 var keys = await ctx.waitFor(fn, '*');
+	 *   var keys = await ctx.waitFor(fn, '*');
 	 *   process(keys);
 	 * } catch (err) {
 	 *   // Continue
@@ -262,4 +253,12 @@ function ctx() {
 	 */
 	async function waitFor (match, quit, timeout=60) {
 	}
+
+	/**
+	 * Call back function `waitForMatch` to be used as match in waitFor
+	 *
+	 * @callback waitForMatch
+	 * @param {string} match Text to be matched against
+	 * @return {*} result Truthy will match
+	 */
 } 
