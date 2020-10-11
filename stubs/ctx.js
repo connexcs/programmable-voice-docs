@@ -210,4 +210,56 @@ function ctx() {
 	 */
 	async function blockDtmf (digits = '0123456789') {
 	}
+
+
+	/**
+	 * Call back function `waitForMatch` to be used as match in waitFor
+	 *
+	 * @callback waitForMatch
+	 * @param {string} match Text to be matched against
+	 */
+
+	/**
+	 * Wait For (DTMF Sequence)
+
+
+	 * 
+	 * @function waitFor
+	 * @memberof ctx
+	 * @param {string|RegExp|waitForMatch} match Positive Match
+	 * @param {string|RegExp|waitForMatch} failMatch Negative Match (How to escape menu)
+	 * @return {Promise} String or RegEx in match, will return string, will return truthy result for match as a function
+	 *
+	 * @example
+	 * try {
+	 *	 var keys = await ctx.waitFor('\d{4}' '*', 3000);
+	 *   process(keys)
+	 * } catch (err) {
+	 *   // Continue
+	 * }
+	 }
+	 *
+	 * @example
+	 * function fn(value) {
+	 *	 return value > 1000;
+	 *   // You can fail a match by throw new Error('fail');
+	 * }
+	 * try {
+	 *	 var keys = await ctx.waitFor(fn, '*');
+	 *   process(keys);
+	 * } catch (err) {
+	 *   // Continue
+	 * }
+	 *
+	 * @example
+	 * // Ignore any previously entered numbers, just capture look at the last part with a Regular Expression
+	 * try {
+	 *	 var keys = await ctx.waitFor(/00$/, '*');
+	 *   process(keys);
+	 * } catch (err) {
+	 *   // Continue
+	 * }
+	 */
+	async function waitFor (match, quit, timeout=60) {
+	}
 } 
