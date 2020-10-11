@@ -211,6 +211,13 @@ function ctx() {
 	async function blockDtmf (digits = '0123456789') {
 	}
 
+	/**
+	 * Call back function `waitForMatch` to be used as match in waitFor
+	 *
+	 * @callback waitForMatch
+	 * @param {string} match Text to be matched against
+	 * @return {*} result Truthy will match
+	 */
 
 	/**
 	 * Wait For (DTMF Sequence)
@@ -228,7 +235,6 @@ function ctx() {
 	 * } catch (err) {
 	 *   // Continue
 	 * }
-	 }
 	 *
 	 * @example
 	 * function fn(value) {
@@ -245,7 +251,7 @@ function ctx() {
 	 * @example
 	 * // Ignore any previously entered numbers, just capture look at the last part with a Regular Expression
 	 * try {
-	 *	 var keys = await ctx.waitFor(/00$/, '*');
+	 *   var keys = await ctx.waitFor(/00$/, '*');
 	 *   process(keys);
 	 * } catch (err) {
 	 *   // Continue
@@ -253,12 +259,4 @@ function ctx() {
 	 */
 	async function waitFor (match, quit, timeout=60) {
 	}
-
-	/**
-	 * Call back function `waitForMatch` to be used as match in waitFor
-	 *
-	 * @callback waitForMatch
-	 * @param {string} match Text to be matched against
-	 * @return {*} result Truthy will match
-	 */
 } 
