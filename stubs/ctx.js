@@ -215,6 +215,7 @@ function ctx() {
 	 * Call back function `waitForMatch` to be used as match in waitFor
 	 *
 	 * @callback waitForMatch
+	 * @memberof ctx
 	 * @param {string} match Text to be matched against
 	 * @return {*} result Truthy will match
 	 */
@@ -258,5 +259,27 @@ function ctx() {
 	 * }
 	 */
 	async function waitFor (match, quit, timeout=60) {
+	}
+	
+	/**
+	 * Wait For Hang Up
+	 * 
+	 * @function waitForHangup
+	 * @memberof ctx
+	 * @return {Promise} Promise returns after the call has completed
+	 */
+	async function waitForHangup () {
+		
+	}
+	
+	/**
+	 * Record Call
+	 * 
+	 * @function record
+	 * @memberof ctx
+	 * @param {string} filename Filename without extension
+	 * @return {Promise} Promise returns after call recording has successfully started
+	 */	async function record (filename) {
+		
 	}
 } 
