@@ -257,6 +257,11 @@ function ctx() {
 	 * } catch (err) {
 	 *   // Continue
 	 * }
+	 *
+	 * @example
+	 * // Wait for multiple events
+	 * ctx.waitFor(/00$/, '*').then(keys => { // Do Stuff});
+	 * ctx.waitFor(/11$/, '*').then(keys => { // Do Stuff});
 	 */
 	async function waitFor (match, quit, timeout=60) {
 	}
