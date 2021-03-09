@@ -173,6 +173,7 @@ function ctx() {
 	 * @function bridge
 	 * @memberof ctx
 	 * @param {string} destination
+	 * @param {string} continue_on - Continue on true, false, 'fail', 'completed'
 	 * @return {Promise}
 	 * @description Bridges the call with another destination, returns a promise when complete containing the bleg context.
 	 *
@@ -182,7 +183,7 @@ function ctx() {
 	 * @example
 	 * await ctx.bridge('441234567890')
 	 */
-	async function bridge (app, destination) {
+	async function bridge (app, destination, continue_on) {
 	}
 
 	/**
