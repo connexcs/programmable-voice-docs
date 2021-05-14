@@ -25,7 +25,7 @@ function kv (){
 	 * Get Value (Stored as a String)
 	 * 
 	 * @function get
-	 * @memberof cxKV
+	 * @memberof cxKV.kv
 	 * @param {string} params - Key
 	 * @return {Promise}
 	 *
@@ -39,7 +39,7 @@ function kv (){
 	 * Set Value (Stored as a String)
 	 * 
 	 * @function set
-	 * @memberof cxKV
+	 * @memberof cxKV.kv
 	 * @param {string} params - Key
 	 * @param {string} msg - Value
 	 * @return {Promise}
@@ -56,7 +56,7 @@ function ko (){
 	 * Get Value (Stored as a Object)
 	 * 
 	 * @function get
-	 * @memberof cxKV
+	 * @memberof cxKV.ko
 	 * @param {string} params - Key
 	 * @return {Promise}
 	 *
@@ -70,7 +70,7 @@ function ko (){
 	 * Set Value (Stored as a String)
 	 * 
 	 * @function set
-	 * @memberof cxKV
+	 * @memberof cxKV.ko
 	 * @param {string} params - Key
 	 * @param {object} msg - Value
 	 * @return {Promise}
