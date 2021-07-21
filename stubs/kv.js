@@ -42,12 +42,13 @@ function kv (){
 	 * @memberof cxKV
 	 * @param {string} params - Key
 	 * @param {string} msg - Value
+	 * @param {integer} ttl - Value
 	 * @return {Promise}
 	 *
 	 * @example
-	 * await kv.set('hello', 'world');
+	 * await kv.set('hello', 'world', 3600);
 	 */
-	async function sms (number, msg){
+	async function set (number, msg, cache = 0){
 	}
 }
 
@@ -73,12 +74,13 @@ function ko (){
 	 * @memberof cxKV
 	 * @param {string} params - Key
 	 * @param {object} msg - Value
+	 * @param {integer} ttl - Value
 	 * @return {Promise}
 	 *
 	 * @example
 	 * await ko.set('record', {hello: 'world'});
 	 */
-	async function sms (number, msg){
+	async function set (number, msg, cache = 0){
 	}
 }
 
