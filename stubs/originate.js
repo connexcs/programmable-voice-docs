@@ -22,7 +22,7 @@ function originate (){
 	 * @return {Promise}
 	 *
 	 * @example
-	 * await kv.get(1234, 'myServerName', '123456789', '1122334455', '160');
+	 * await originate.originate(1234, 'myServerName', '123456789', '1122334455', '160');
 	 */
 	async function originate (companyId, alias, destination, cli, extension){
 
