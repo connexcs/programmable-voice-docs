@@ -14,11 +14,11 @@ function originate (){
 	 * 
 	 * @function originate
 	 * @memberof cxOriginate
-	 * @param {number} params - companyId
-	 * @param {string} params - serverAlias
-	 * @param {string} params - destination
-	 * @param {string} params - cli
-	 * @param {string} params - extension
+	 * @param {number} companyId - Company ID which originates the call
+	 * @param {string} serverAlias - Server to send the call through
+	 * @param {string} destination - Destination Phone Number
+	 * @param {string} cli - CLI to send
+	 * @param {string} extension - Internal Destination (Leg B)
 	 * @return {Promise}
 	 *
 	 * @example
