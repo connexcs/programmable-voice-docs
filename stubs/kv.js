@@ -91,12 +91,13 @@ function ko (){
  * @memberof cxKV
  * @param {string} params - Key
  * @param {integer} params - Increment by
+ * @param {integer} params - Expire
  * @return {Promise}
  *
  * @example
  * var newValue = await incr('counter');
  */
-async function incr (key, increment = 1){
+async function incr (key, increment = 1, expire=0){
 }
 
 /**
