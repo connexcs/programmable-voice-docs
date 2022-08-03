@@ -12,9 +12,9 @@
  * const rest = cxRest.auth("api@yourdomain.com"); 
  * 
  * async function main(data) {
- *   var result = await rest.read(data.routing.dest_number);
+ *   var customers = await api.get('customers');
  *   // Do something with result
- *   return data
+ *   return customers
  * }
  * ```
  */
