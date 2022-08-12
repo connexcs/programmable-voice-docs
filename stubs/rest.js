@@ -9,10 +9,10 @@
  * ## Example ##
  * ```
  * const cxRest = require('cxRest');
- * const rest = cxRest.auth("api@yourdomain.com"); 
+ * const api = cxRest.auth("api@yourdomain.com"); 
  * 
  * async function main(data) {
- *   var customers = await api.get('customers');
+ *   var customers = await api.get('customer');
  *   // Do something with result
  *   return customers
  * }
