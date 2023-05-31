@@ -80,5 +80,21 @@ function userspace () {
 	self.delete = function(area, key) {
 		
 	}
+
+	/**
+	 * Get Knex Instance - Calling this function will return an instance of Knex (https://knexjs.org)
+	 * The first parameter you specify the database name "default" should be your first param.
+	 * Optionally the second parameter contains the table name
+	 * 
+	 * @function knex
+	 * @memberof cxUserspace
+	 * @param {string} database - Datastore Name
+	 * @param {?string} table - Table Name
+	 * @return {Promise}
+	 *
+	 * @example
+	 * const qry = await cxUserspace.knex('myDatabase', 'myTable')
+	 */
+	
 	return self;
 }
