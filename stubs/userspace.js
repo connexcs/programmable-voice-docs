@@ -90,7 +90,7 @@ function userspace () {
 	 * @memberof cxUserspace
 	 * @param {string} database - Datastore Name
 	 * @param {?string} table - Table Name
-	 * @return {Promise}
+	 * @return {Object}
 	 *
 	 * @example
 	 * const qry = await cxUserspace.knex('myDatabase', 'myTable')
